@@ -13,7 +13,7 @@ const cors=require('cors')
 
 
 app.use(cors({
-  origin:'http://localhost:5173',
+  origin:'https://leetcode-project-yzas.onrender.com',
   credentials:true
 }))
 app.use(express.json());
