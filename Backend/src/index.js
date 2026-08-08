@@ -15,7 +15,7 @@ const cors=require('cors')
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://leetcode-project-pied.vercel.app'
+    'https://vikash-jadaun--leetcode-project-pied.vercel.app'
   ],
   credentials: true
 }))
