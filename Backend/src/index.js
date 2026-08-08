@@ -13,8 +13,11 @@ const cors=require('cors')
 
 
 app.use(cors({
-  origin:'https://leetcode-project-yzas.onrender.com',
-  credentials:true
+  origin: [
+    'http://localhost:5173',
+    'https://leetcode-project-pied.vercel.app'
+  ],
+  credentials: true
 }))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

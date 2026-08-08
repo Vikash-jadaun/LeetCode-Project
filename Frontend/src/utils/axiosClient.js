@@ -1,12 +1,11 @@
-import axios from "axios"
+import axios from "axios";
 
-const axiosClient =  axios.create({
-    baseURL: 'https://leetcode-project-yzas.onrender.com',
-    withCredentials: true,
-    headers: {
-        'Content-Type': 'application/json'
-    }
+const axiosClient = axios.create({
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:3000",
+  withCredentials: true,
+  headers: {
+    "Content-Type": "application/json",
+  },
 });
-
 
 export default axiosClient;
