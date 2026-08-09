@@ -101,6 +101,7 @@ Users can view their previous submissions and track their coding activity.
 * **Express.js**
 * **MongoDB**
 * **Mongoose**
+* **Redis**
 * **JWT**
 * **bcrypt**
 * **Axios**
